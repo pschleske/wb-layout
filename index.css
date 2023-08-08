@@ -1,0 +1,147 @@
+body {
+    font-family: 'Anek Telugu', sans-serif;
+    font-size: 500;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header img {
+    height: 50px;
+    width: 300px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    justify-items: center;
+}
+
+.main-container {
+    width: 100%;
+    height: 400vh;
+    border: 2px solid lightgray;
+    display: inline-block;
+    /* padding-left: 10%; */
+}
+
+.rocket {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.one {
+    background-image: url(https://spaceflightnow.com/wp-content/uploads/2021/03/20210324starlinkstreak.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.one-bottom {
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+.one-bottom h4 {
+    font-size: larger;
+}
+
+.one-bottom h2 {
+    font-size: xx-large;
+}
+
+#btn1 {
+    display: inline-block;
+}
+
+.two {
+    background-image: url(https://spaceflightnow.com/wp-content/uploads/2020/08/50199715777_5eb5ea7221_k.jpg);
+    background-size: cover;
+    display: flex;
+    align-content: flex-start;
+}
+
+.two-bottom h4 {
+    font-size: larger;
+}
+
+.two-bottom h2 {
+    font-size: xx-large;
+}
+
+.three {
+    background-image: url(https://cdn.mos.cms.futurecdn.net/QRUprPaxCcv3pojcAhtySD.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.three-bottom h4 {
+    font-size: larger;
+}
+
+.three-bottom h2 {
+    font-size: xx-large;
+}
+
+.four {
+    background-image: url(https://viasat.brightspotgocdn.com/ee/79/e7e2b90d4b9298f4dd29feadc060/viasat-3-amer-vertical-042723-dsc-0808.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.four-bottom h4 {
+    font-size: larger;
+}
+
+.four-bottom h2 {
+    font-size: xx-large;
+}
+
+.five {
+    background-image: url(https://cdn.mos.cms.futurecdn.net/QRUprPaxCcv3pojcAhtySD.jpg);
+    background-size: cover;
+}
+
+.five-bottom h4 {
+    font-size: larger;
+}
+
+.five-bottom h2 {
+    font-size: xx-large;
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: x-large;
+    height: 100px;
+    width: 200px;
+}
+
+h2,
+h4 {
+    color: white;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
